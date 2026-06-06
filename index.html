@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="El Parche Bar – Bartender profesional, coctelería premium y bar móvil para eventos inolvidables en Cartagena y Colombia." />
+  <title>El Parche Bar | Bartender Premium & Bar Móvil para Eventos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════ NAV ═══════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#inicio" class="nav__logo">
+        <span class="nav__logo-icon">🍸</span>
+        <span class="nav__logo-text">El Parche <em>Bar</em></span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20reservar%20El%20Parche%20Bar%20para%20mi%20evento" class="btn btn--neon btn--sm nav__cta" target="_blank" rel="noopener">
+        Reservar Ahora
+      </a>
+      <button class="nav__burger" id="navBurger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="navMobile">
+      <a href="#experiencia">Experiencia</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20reservar%20El%20Parche%20Bar%20para%20mi%20evento" class="btn btn--neon" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <div class="hero__bg-overlay"></div>
+      <div class="hero__particles" id="particles"></div>
+      <!-- Animated liquid blobs -->
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <div class="hero__blob hero__blob--3"></div>
+    </div>
+
+    <div class="hero__content">
+      <div class="hero__badge reveal">
+        <span class="hero__badge-dot"></span>
+        Bartender Premium · Bar Móvil · Show de Coctelería
+      </div>
+      <h1 class="hero__title reveal reveal--delay-1">
+        La fiesta comienza<br />
+        cuando llega<br />
+        <span class="hero__title-highlight">El Parche Bar</span>
+      </h1>
+      <p class="hero__subtitle reveal reveal--delay-2">
+        Bartender profesional, coctelería premium y bar móvil<br class="hide-mobile" />
+        para eventos <strong>inolvidables</strong>.
+      </p>
+      <div class="hero__actions reveal reveal--delay-3">
+        <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20reservar%20El%20Parche%20Bar%20para%20mi%20evento" class="btn btn--neon btn--lg" target="_blank" rel="noopener">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.549 4.107 1.51 5.836L0 24l6.335-1.654A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.369l-.36-.214-3.727.975.999-3.625-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+          Reservar por WhatsApp
+        </a>
+        <a href="#servicios" class="btn btn--ghost btn--lg">
+          Ver Servicios
+          <svg class="btn__icon btn__icon--right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+        </a>
+      </div>
+      <div class="hero__stats reveal reveal--delay-4">
+        <div class="hero__stat">
+          <span class="hero__stat-num">200+</span>
+          <span class="hero__stat-label">Eventos</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">5★</span>
+          <span class="hero__stat-label">Rating</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">50+</span>
+          <span class="hero__stat-label">Cócteles</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ EXPERIENCIA ═══════════════════════ -->
+  <section class="experience" id="experiencia">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Por qué elegirnos</span>
+        <h2 class="section-title">Una <span class="text-neon">Experiencia</span> que<br />no olvidarás</h2>
+      </div>
+      <div class="experience__grid">
+        <div class="experience__card reveal">
+          <div class="experience__card-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="20" r="10" stroke="currentColor" stroke-width="2.5"/><path d="M12 56c0-11.046 8.954-20 20-20s20 8.954 20 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Bartender Profesional</h3>
+          <p>Técnica impecable, carisma y presencia. Nuestros bartenders convierten cada cóctel en un espectáculo.</p>
+        </div>
+        <div class="experience__card reveal reveal--delay-1">
+          <div class="experience__card-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 8h24l-4 28H24L20 8z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M16 56h32M24 36c0 8 16 8 16 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Show de Coctelería</h3>
+          <p>Malabares, fuego y técnica — un espectáculo visual que deja a tus invitados con la boca abierta.</p>
+        </div>
+        <div class="experience__card reveal reveal--delay-2">
+          <div class="experience__card-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="28" width="48" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M16 28V20a16 16 0 0132 0v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="32" cy="42" r="4" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Bar Móvil</h3>
+          <p>Llevamos el bar completo a tu puerta. Setup profesional, equipado para cualquier tipo de evento.</p>
+        </div>
+        <div class="experience__card reveal">
+          <div class="experience__card-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 8l6 12 13 2-9.5 9 2.5 13L32 38l-12 6 2.5-13L13 22l13-2 6-12z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Atención Personalizada</h3>
+          <p>Cada evento es único. Diseñamos el menú de cócteles y la experiencia a medida de tus gustos.</p>
+        </div>
+        <div class="experience__card reveal reveal--delay-1">
+          <div class="experience__card-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 12C20.954 12 12 20.954 12 32s8.954 20 20 20 20-8.954 20-20S43.046 12 32 12z" stroke="currentColor" stroke-width="2.5"/><path d="M32 20v14l8 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Experiencia Premium</h3>
+          <p>Insumos de primera calidad, presentación impecable y un servicio que supera todas las expectativas.</p>
+        </div>
+        <div class="experience__card experience__card--cta reveal reveal--delay-2">
+          <p class="experience__cta-pre">¿Listo para vivir la experiencia?</p>
+          <h3>Tu evento, nuestro escenario</h3>
+          <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20reservar%20El%20Parche%20Bar%20para%20mi%20evento" class="btn btn--neon" target="_blank" rel="noopener">Cotizar Ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SERVICIOS ═══════════════════════ -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lo que ofrecemos</span>
+        <h2 class="section-title">Nuestros <span class="text-neon">Servicios</span></h2>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <div class="service-card__img service-card__img--1"></div>
+            <div class="service-card__img-overlay"></div>
+            <span class="service-card__tag">Popular</span>
+          </div>
+          <div class="service-card__body">
+            <h3>Coctelería para Fiestas</h3>
+            <p>Cócteles clásicos y tropicales preparados en vivo. Tu fiesta merece bebidas que estén a la altura.</p>
+            <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20contratar%20Coctelería%20para%20Fiesta" class="btn btn--neon btn--sm" target="_blank" rel="noopener">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__img-wrap">
+            <div class="service-card__img service-card__img--2"></div>
+            <div class="service-card__img-overlay"></div>
+            <span class="service-card__tag service-card__tag--fire">🔥 Trending</span>
+          </div>
+          <div class="service-card__body">
+            <h3>Show de Bartender</h3>
+            <p>Espectáculo de flair bartending con malabares, fuego y técnica. El entretenimiento que todos recordarán.</p>
+            <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20contratar%20el%20Show%20de%20Bartender" class="btn btn--neon btn--sm" target="_blank" rel="noopener">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__img-wrap">
+            <div class="service-card__img service-card__img--3"></div>
+            <div class="service-card__img-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <h3>Eventos Empresariales</h3>
+            <p>Coctelería corporativa de alto nivel. Impresiona a tus clientes y equipo con una experiencia exclusiva.</p>
+            <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20contratar%20servicio%20para%20Evento%20Empresarial" class="btn btn--neon btn--sm" target="_blank" rel="noopener">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__img-wrap">
+            <div class="service-card__img service-card__img--4"></div>
+            <div class="service-card__img-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <h3>Cumpleaños</h3>
+            <p>Celebra tu día especial con estilo. Cócteles personalizados y ambientación única para tu fiesta de cumpleaños.</p>
+            <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20contratar%20para%20un%20Cumpleaños" class="btn btn--neon btn--sm" target="_blank" rel="noopener">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__img-wrap">
+            <div class="service-card__img service-card__img--5"></div>
+            <div class="service-card__img-overlay"></div>
+            <span class="service-card__tag service-card__tag--premium">⭐ Premium</span>
+          </div>
+          <div class="service-card__body">
+            <h3>Bar Móvil Completo</h3>
+            <p>Barra completa, equipos, insumos y bartender. Todo listo para montar el bar perfecto en cualquier locación.</p>
+            <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20contratar%20el%20Bar%20Móvil%20Completo" class="btn btn--neon btn--sm" target="_blank" rel="noopener">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card service-card--wide reveal reveal--delay-2">
+          <div class="service-card__img-wrap">
+            <div class="service-card__img service-card__img--6"></div>
+            <div class="service-card__img-overlay"></div>
+          </div>
+          <div class="service-card__body">
+            <h3>Bodas & Celebraciones Especiales</h3>
+            <p>El día más importante merece el mejor servicio. Coctelería de lujo, presentación impecable y atención VIP para tu gran celebración.</p>
+            <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20contratar%20para%20una%20Boda%20o%20Celebración%20Especial" class="btn btn--neon btn--sm" target="_blank" rel="noopener">Reservar</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ GALERÍA ═══════════════════════ -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Momentos únicos</span>
+        <h2 class="section-title">La <span class="text-neon">Magia</span> en acción</h2>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall reveal">
+        <div class="gallery__img gallery__img--1"></div>
+        <div class="gallery__item-overlay"><span>Cócteles Premium</span></div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-1">
+        <div class="gallery__img gallery__img--2"></div>
+        <div class="gallery__item-overlay"><span>Show en Vivo</span></div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-2">
+        <div class="gallery__img gallery__img--3"></div>
+        <div class="gallery__item-overlay"><span>Bar Móvil</span></div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal">
+        <div class="gallery__img gallery__img--4"></div>
+        <div class="gallery__item-overlay"><span>Eventos Privados</span></div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-1">
+        <div class="gallery__img gallery__img--5"></div>
+        <div class="gallery__item-overlay"><span>Coctelería Tropical</span></div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-2">
+        <div class="gallery__img gallery__img--6"></div>
+        <div class="gallery__item-overlay"><span>Celebraciones</span></div>
+      </div>
+      <div class="gallery__item gallery__item--tall reveal">
+        <div class="gallery__img gallery__img--7"></div>
+        <div class="gallery__item-overlay"><span>Flair Bartending</span></div>
+      </div>
+      <div class="gallery__item reveal reveal--delay-1">
+        <div class="gallery__img gallery__img--8"></div>
+        <div class="gallery__item-overlay"><span>Eventos Corporativos</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ NOSOTROS ═══════════════════════ -->
+  <section class="about" id="nosotros">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__visual reveal">
+          <div class="about__img-frame">
+            <div class="about__img"></div>
+            <div class="about__img-border"></div>
+          </div>
+          <div class="about__badge-float">
+            <span class="about__badge-num">5+</span>
+            <span class="about__badge-txt">Años de experiencia</span>
+          </div>
+        </div>
+        <div class="about__content reveal reveal--delay-1">
+          <span class="section-tag">Quiénes somos</span>
+          <h2 class="section-title">Más que un bartender,<br /><span class="text-neon">una experiencia</span></h2>
+          <blockquote class="about__quote">
+            "Mi objetivo es transformar reuniones normales en experiencias memorables a través de la coctelería y el entretenimiento."
+          </blockquote>
+          <p class="about__text">
+            Somos un equipo apasionado por la mixología y el arte de crear momentos únicos. Desde nuestros inicios hemos atendido más de 200 eventos en Colombia, llevando el mejor servicio de bartender premium directamente a cada celebración.
+          </p>
+          <p class="about__text">
+            Cada cóctel que preparamos lleva precisión, creatividad y una pizca de magia. No somos solo bartenders — somos los protagonistas que tu fiesta necesita.
+          </p>
+          <div class="about__values">
+            <div class="about__value">
+              <span class="about__value-icon">✦</span>
+              <span>Pasión por la mixología</span>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">✦</span>
+              <span>Insumos de primera calidad</span>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">✦</span>
+              <span>Puntualidad garantizada</span>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">✦</span>
+              <span>Servicio 100% personalizado</span>
+            </div>
+          </div>
+          <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20saber%20más%20sobre%20El%20Parche%20Bar" class="btn btn--neon" target="_blank" rel="noopener">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ TESTIMONIOS ═══════════════════════ -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lo que dicen</span>
+        <h2 class="section-title">Nuestros <span class="text-neon">Clientes</span> hablan</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Todos quedaron impresionados con el show. El bartender fue increíble, los cócteles deliciosos y el ambiente cambió completamente. ¡Totalmente recomendado!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--1"></div>
+            <div>
+              <strong>Valeria R.</strong>
+              <span>Fiesta de cumpleaños</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal--delay-1">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"El mejor servicio de bartender que hemos contratado para eventos corporativos. Profesional, puntual y con una presentación impecable. Nuestros clientes quedaron encantados."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--2"></div>
+            <div>
+              <strong>Carlos M.</strong>
+              <span>Evento empresarial</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal--delay-2">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"La fiesta cambió completamente cuando llegó El Parche Bar. Los cócteles estaban perfectos y el show fue un hit total. ¡Todos preguntaron el contacto!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--3"></div>
+            <div>
+              <strong>Isabella P.</strong>
+              <span>Boda privada</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Contraté el bar móvil para mi despedida de soltera y fue la mejor decisión. Los cócteles personalizados con nuestros nombres, el show… simplemente mágico."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar testimonial-card__avatar--4"></div>
+            <div>
+              <strong>Daniela F.</strong>
+              <span>Despedida de soltera</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CTA FINAL ═══════════════════════ -->
+  <section class="cta-final">
+    <div class="cta-final__bg">
+      <div class="cta-final__blob cta-final__blob--1"></div>
+      <div class="cta-final__blob cta-final__blob--2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-final__inner reveal">
+        <span class="section-tag">El siguiente nivel</span>
+        <h2 class="cta-final__title">¿Listo para llevar tu<br /><span class="text-neon">fiesta al siguiente nivel?</span></h2>
+        <p class="cta-final__sub">Cupos limitados. Reserva hoy y asegura la experiencia<br class="hide-mobile" /> premium para tu próximo evento.</p>
+        <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20reservar%20El%20Parche%20Bar%20para%20mi%20evento" class="btn btn--neon btn--xl btn--pulse" target="_blank" rel="noopener">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.549 4.107 1.51 5.836L0 24l6.335-1.654A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.369l-.36-.214-3.727.975.999-3.625-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+          Reservar Ahora
+        </a>
+        <p class="cta-final__note">Respuesta en menos de 1 hora · Disponible 7 días a la semana</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACTO ═══════════════════════ -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hablemos</span>
+        <h2 class="section-title">Contáctanos <span class="text-neon">ahora</span></h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <a href="https://wa.me/573001234567" class="contact__channel contact__channel--wa" target="_blank" rel="noopener">
+            <div class="contact__channel-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.549 4.107 1.51 5.836L0 24l6.335-1.654A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.369l-.36-.214-3.727.975.999-3.625-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>+57 300 123 4567</span>
+            </div>
+          </a>
+          <a href="https://instagram.com/elparchebar" class="contact__channel contact__channel--ig" target="_blank" rel="noopener">
+            <div class="contact__channel-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </div>
+            <div>
+              <strong>Instagram</strong>
+              <span>@elparchebar</span>
+            </div>
+          </a>
+          <div class="contact__channel contact__channel--loc">
+            <div class="contact__channel-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            </div>
+            <div>
+              <strong>Cobertura</strong>
+              <span>Cartagena y Colombia</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form reveal reveal--delay-1" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="fname">Nombre completo</label>
+            <input type="text" id="fname" name="name" placeholder="Tu nombre" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="fphone">WhatsApp / Teléfono</label>
+            <input type="tel" id="fphone" name="phone" placeholder="+57 300 000 0000" autocomplete="tel" />
+          </div>
+          <div class="form-group">
+            <label for="fevent">Tipo de evento</label>
+            <select id="fevent" name="event">
+              <option value="" disabled selected>Selecciona el tipo de evento</option>
+              <option>Fiesta privada</option>
+              <option>Cumpleaños</option>
+              <option>Evento empresarial</option>
+              <option>Boda</option>
+              <option>Despedida de soltera/o</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmsg">Cuéntanos tu evento</label>
+            <textarea id="fmsg" name="message" rows="4" placeholder="Fecha, número de personas, lugar…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--neon btn--full">
+            Enviar por WhatsApp
+            <svg class="btn__icon btn__icon--right" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.549 4.107 1.51 5.836L0 24l6.335-1.654A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.369l-.36-.214-3.727.975.999-3.625-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#inicio" class="nav__logo">
+            <span class="nav__logo-icon">🍸</span>
+            <span class="nav__logo-text">El Parche <em>Bar</em></span>
+          </a>
+          <p>Bartender premium y bar móvil<br />para eventos inolvidables.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Servicios</h4>
+          <a href="#servicios">Coctelería para fiestas</a>
+          <a href="#servicios">Show de bartender</a>
+          <a href="#servicios">Eventos empresariales</a>
+          <a href="#servicios">Bar móvil</a>
+        </div>
+        <div class="footer__links">
+          <h4>Empresa</h4>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#galeria">Galería</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer__social">
+          <h4>Síguenos</h4>
+          <a href="https://instagram.com/elparchebar" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://wa.me/573001234567" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.549 4.107 1.51 5.836L0 24l6.335-1.654A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.369l-.36-.214-3.727.975.999-3.625-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 El Parche Bar. Todos los derechos reservados.</p>
+        <p>Hecho con 🍸 en Cartagena, Colombia</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20reservar%20El%20Parche%20Bar%20para%20mi%20evento" class="wa-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.118.549 4.107 1.51 5.836L0 24l6.335-1.654A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.369l-.36-.214-3.727.975.999-3.625-.235-.372A9.818 9.818 0 1112 21.818z"/></svg>
+    <span class="wa-float__tooltip">¡Reserva ya!</span>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
